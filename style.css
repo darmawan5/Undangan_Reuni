@@ -53,13 +53,13 @@ body {
     font-size: 1.4rem;
 }
 
-.hero a {
+.hero a, .info a{
     color: black;
     background-color: var(--blue);
     box-shadow: var(--shadow);
 }
 
-.hero a:hover {
+.hero a:hover, .info a:hover {
     background-color: var(--blue);
     color: white;
 
@@ -99,7 +99,7 @@ body {
 .gallery h2,
 .rsvp h2,
 .gifts h2 {
-    color: var(--blue);
+    color: aqua;
     font-family: "Roboto", cursive;
     font-size: 5rem;
     font-weight: bold;
@@ -112,7 +112,7 @@ body {
 }
 
 .home p{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: #666;
 }
 
@@ -122,7 +122,7 @@ body {
 .home .couple h3 {
     font-family: 'Roboto';
     font-size: 2.4rem;
-    color: var(--blue);
+    color: aqua;
 }
 
 .home .couple img{
@@ -154,12 +154,12 @@ body {
 }
 
 .info .alamat{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 
 }
 
 .info .description{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
@@ -176,12 +176,12 @@ body {
 }
 
 .info .card-body{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .info .card-footer{
     border-top: 1px solid #999;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
