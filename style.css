@@ -22,7 +22,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(img/background.jpeg);
+    background-image: url(img/background1.jpeg);
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -53,8 +53,8 @@ body {
 }
 
 .hero a {
-    color: var(--blue);
-    background-color: white;
+    color: black;
+    background-color: var(--blue);
     box-shadow: var(--shadow);
 }
 
@@ -342,7 +342,7 @@ body {
 
 footer {
     padding: 3rem;
-    background-color: var(--blue);
+    background-color: #FFAD60;
     color: white;
     
 }
@@ -466,9 +466,9 @@ footer li {
     }
 }
 /* Mobile */
-@media (max-width: 576px){
+@media (max-width: 566px){
     html {
-        font-size: 60%;
+        font-size: 50%;
     }
     .simply-countdown>.simply-section {
         padding: 35px;
